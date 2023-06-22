@@ -80,8 +80,19 @@ export class OrientedImage{
 		this.mesh = new THREE.Mesh(planeGeometry, material);
 		this.line = new THREE.Line(lineGeometry, lineMaterial);
 		this.texture = null;
-
+		
+		// TODO modifier path relatif
+		const relative_imagePath = `./velo/opk_ok.txt/..//../${id}`;
+		new THREE.TextureLoader().load(relative_imagePath,
+			(texture) => {
+				this.texture = texture;
+				this.mesh.material.uniforms.tColor.value = texture;
+				mesh.material.needsUpdate = true;
+			}
+		);
+		
 		this.mesh.orientedImage = this;
+		
 	}
 
 	set(position, rotation, dimension, fov){
@@ -487,4 +498,6 @@ export class OrientedImageLoader{
 		return images;
 	}
 }
+
+				
 
