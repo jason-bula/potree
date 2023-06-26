@@ -3,7 +3,7 @@ import * as THREE from "../../libs/three.js/build/three.module.js";
 
 export const ClassificationScheme = {
 
-	DEFAULT: {
+	other	: {
 		0:       { visible: true, name: 'never classified'  , color: [0.5,  0.5,  0.5,  1.0] },
 		1:       { visible: true, name: 'unclassified'      , color: [0.5,  0.5,  0.5,  1.0] },
 		2:       { visible: true, name: 'ground'            , color: [0.63, 0.32, 0.18, 1.0] },
@@ -20,26 +20,26 @@ export const ClassificationScheme = {
 
 
 
-	VELO: {
-		0:       { visible: true, name: 'road'  			, color: [0.5 , 0.25, 0.5 ] },
-		1:       { visible: true, name: 'sidewalk'      	, color: [0.96, 0.14, 0.91] },
-		2:       { visible: true, name: 'building'          , color: [0.27, 0.27, 0.27] },
-		3:       { visible: true, name: 'wall'    			, color: [0.4 , 0.4 , 0.61] },
-		4:       { visible: true, name: 'fence' 			, color: [0.75, 0.6 , 0.6 ] },
-		5:       { visible: true, name: 'pole'   			, color: [0.6 , 0.6 , 0.6 ] },
-		6:       { visible: true, name: 'traffic ligh'      , color: [0.98, 0.67, 0.12] },
-		7:       { visible: true, name: 'traffic sign'	    , color: [0.86, 0.86, 0.  ] },
-		8:       { visible: true, name: 'vegetation'        , color: [0.42, 0.56, 0.14] },
-		9:       { visible: true, name: 'terrain'           , color: [0.6 , 0.98, 0.6 ] },
-		12:      { visible: true, name: 'sky'	            , color: [0.27, 0.51, 0.71] },
-		13:      { visible: true, name: 'person'	        , color: [0.86, 0.08, 0.24] },
-		14:      { visible: true, name: 'rider'	            , color: [1.  , 0.  , 0.  ] },
-		15:      { visible: true, name: 'car'	            , color: [0.  , 0.  , 0.56] },
-		16:      { visible: true, name: 'truck'	            , color: [0.  , 0.  , 0.27] },
-		17:      { visible: true, name: 'bus'	            , color: [0.  , 0.24, 0.39] },
-		18:      { visible: true, name: 'train'	            , color: [0.  , 0.31, 0.39] },
-		19:      { visible: true, name: 'motorcycle'	    , color: [0.  , 0.  , 0.9 ] },
-		20:      { visible: true, name: 'bicycle'	        , color: [0.47, 0.04, 0.13] },
+	DEFAULT	: {
+		0:       { visible: true, name: 'road'  			, color: [0.5, 0.3, 0.5] },
+		1:       { visible: true, name: 'sidewalk'      	, color: [1. , 0.1, 0.9] },
+		2:       { visible: true, name: 'building'          , color: [0.3, 0.3, 0.3] },
+		3:       { visible: true, name: 'wall'    			, color: [0.4, 0.4, 0.6] },
+		4:       { visible: true, name: 'fence' 			, color: [0.7, 0.6, 0.6] },
+		5:       { visible: true, name: 'pole'   			, color: [0.6, 0.6, 0.6] },
+		6:       { visible: true, name: 'traffic ligh'      , color: [1. , 0.7, 0.1] },
+		7:       { visible: true, name: 'traffic sign'	    , color: [0.9, 0.9, 0. ] },
+		8:       { visible: true, name: 'vegetation'        , color: [0.4, 0.6, 0.1] },
+		9:       { visible: true, name: 'terrain'           , color: [0.6, 1. , 0.6] },
+		12:      { visible: true, name: 'sky'	            , color: [0.3, 0.5, 0.7] },
+		13:      { visible: true, name: 'person'	        , color: [0.9, 0.1, 0.2] },
+		14:      { visible: true, name: 'rider'	            , color: [1. , 0. , 0. ] },
+		15:      { visible: true, name: 'car'	            , color: [0. , 0. , 0.6] },
+		16:      { visible: true, name: 'truck'	            , color: [0. , 0. , 0.3] },
+		17:      { visible: true, name: 'bus'	            , color: [0. , 0.2, 0.4] },
+		18:      { visible: true, name: 'train'	            , color: [0. , 0.3, 0.4] },
+		19:      { visible: true, name: 'motorcycle'	    , color: [0. , 0. , 0.9] },
+		20:      { visible: true, name: 'bicycle'	        , color: [0.5, 0. , 0.1] },
 
 		DEFAULT: { visible: true, name: 'default'            , color: [0.3,  0.6,  0.6,  0.5] },
 	}
