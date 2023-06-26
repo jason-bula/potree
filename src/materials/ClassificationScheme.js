@@ -16,6 +16,32 @@ export const ClassificationScheme = {
 		9:       { visible: true, name: 'water'             , color: [0.0,  0.0,  1.0,  1.0] },
 		12:      { visible: true, name: 'overlap'           , color: [1.0,  1.0,  0.0,  1.0] },
 		DEFAULT: { visible: true, name: 'default'           , color: [0.3,  0.6,  0.6,  0.5] },
+	},
+
+
+
+	VELO: {
+		0:       { visible: true, name: 'road'  			, color: [0.5 , 0.25, 0.5 ] },
+		1:       { visible: true, name: 'sidewalk'      	, color: [0.96, 0.14, 0.91] },
+		2:       { visible: true, name: 'building'          , color: [0.27, 0.27, 0.27] },
+		3:       { visible: true, name: 'wall'    			, color: [0.4 , 0.4 , 0.61] },
+		4:       { visible: true, name: 'fence' 			, color: [0.75, 0.6 , 0.6 ] },
+		5:       { visible: true, name: 'pole'   			, color: [0.6 , 0.6 , 0.6 ] },
+		6:       { visible: true, name: 'traffic ligh'      , color: [0.98, 0.67, 0.12] },
+		7:       { visible: true, name: 'traffic sign'	    , color: [0.86, 0.86, 0.  ] },
+		8:       { visible: true, name: 'vegetation'        , color: [0.42, 0.56, 0.14] },
+		9:       { visible: true, name: 'terrain'           , color: [0.6 , 0.98, 0.6 ] },
+		12:      { visible: true, name: 'sky'	            , color: [0.27, 0.51, 0.71] },
+		13:      { visible: true, name: 'person'	        , color: [0.86, 0.08, 0.24] },
+		14:      { visible: true, name: 'rider'	            , color: [1.  , 0.  , 0.  ] },
+		15:      { visible: true, name: 'car'	            , color: [0.  , 0.  , 0.56] },
+		16:      { visible: true, name: 'truck'	            , color: [0.  , 0.  , 0.27] },
+		17:      { visible: true, name: 'bus'	            , color: [0.  , 0.24, 0.39] },
+		18:      { visible: true, name: 'train'	            , color: [0.  , 0.31, 0.39] },
+		19:      { visible: true, name: 'motorcycle'	    , color: [0.  , 0.  , 0.9 ] },
+		20:      { visible: true, name: 'bicycle'	        , color: [0.47, 0.04, 0.13] },
+
+		DEFAULT: { visible: true, name: 'default'            , color: [0.3,  0.6,  0.6,  0.5] },
 	}
 };
 
